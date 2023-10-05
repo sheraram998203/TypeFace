@@ -11,7 +11,6 @@ export default function ViewDetailsModal({
   setModalVisible,
   quiz,
 }) {
-  // Log('ViewDetails Page - Quiz  : ', quiz);
 
   return (
     <Modal
@@ -70,11 +69,6 @@ export default function ViewDetailsModal({
 }
 
 const styles = StyleSheet.create({
-  // container: {
-  //   backgroundColor: COLORS.white,
-  //   flex: 1,
-  //   padding: SPACING.md,
-  // },
   subContainer: {
     padding: SPACING.s10,
     // marginBottom: 20,
